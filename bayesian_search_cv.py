@@ -1,4 +1,5 @@
 from sklearn.base import clone
+from sklearn.model_selection import cross_val_score
 from bayes_opt import BayesianOptimization
 
 class BayesianSearchCV:
