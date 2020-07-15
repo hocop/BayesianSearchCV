@@ -9,7 +9,7 @@ This class is similar to `GridSearchCV` and `RandomizedSearchCV` from `sklearn.m
 import lightgbm as lgb
 from bayesian_search_cv import BayesianSearchCV
 
-model = lgb.LGBMClassifier(n_estimators=200, num_leaves=40)
+model = lgb.LGBMClassifier()
 
 # Set only upper and lower bounds for each parameter
 param_grid = {
