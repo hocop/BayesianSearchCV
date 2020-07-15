@@ -28,7 +28,7 @@ model_bayes = BayesianSearchCV(
 model_bayes.fit(X_train, y_train)
 ```
 
-Full example on the Titanic dataset: https://www.kaggle.com/hocop1/3-approaches-to-hyperparameter-search-bayesian  
+Full usage example on the Titanic dataset: https://www.kaggle.com/hocop1/3-approaches-to-hyperparameter-search-bayesian  
 
 `BayesianSearchCV` class is imported from `bayesian_search_cv.py` file.  
 This is one-file repository, so no need to install it. Just copy this file into your working directory.
