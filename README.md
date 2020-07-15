@@ -34,7 +34,7 @@ Full usage example on the Titanic dataset: https://www.kaggle.com/hocop1/3-appro
 This is one-file repository, so no need to install it. Just copy this file into your working directory.
 
 ## Requirements
-This class is based on [Bayesian Optimization](https://github.com/fmfn/BayesianOptimization)  
+This class is based on [Bayesian Optimization](https://github.com/fmfn/BayesianOptimization).  
 You may need to install it:
 ```
 $ pip install bayesian-optimization
